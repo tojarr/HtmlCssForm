@@ -1,0 +1,183 @@
+/** {
+  margin: 0;
+}*/
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex: 0 0 auto;
+}
+
+
+
+.header{
+  background:grey;
+  padding: 10px;
+  display: flex;
+  align-items: baseline;
+}
+.header h1{
+  color:white;
+}
+
+.header-menu{
+  flex: 1 1 auto;
+  text-align:right;
+}
+
+.header-menu a {
+  text-decoration:none;
+  color:black;
+  font-weight: bold;
+  margin:0 10px 0 0;
+}
+
+.sidebar-left a{
+  text-decoration:none;
+  color:black;
+}
+
+.sidebar-left{
+  padding: 20px;
+  background:darkgrey;
+  width:200px;
+  min-height:740px;
+}
+
+.main{
+  background:lightgrey;
+  min-height:740px;
+}
+
+.main-text{
+  background: lightgrey;
+  padding: 20px;
+}
+
+.form{
+  text-align:center;
+  background: lightgrey;
+}
+
+.main-form{
+  width: 300px;
+  background: lightgrey;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.flex-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+	align-items: stretch;
+    }
+
+.flex-item:nth-child(1) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+
+.flex-item:nth-child(2) {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+
+label{
+  margin-bottom:10px;
+  display:inline-block;
+  min-width:100px;
+  text-align:left;
+}
+
+.form-line{
+  margin-bottom:5px ;
+}
+
+.check{
+  margin:10px 0;
+  text-align: left;
+}
+
+.check input:nth-child(1){
+  margin-left:10px;
+  margin-right:5px;
+  
+}
+
+.check-margin-left{
+  margin-left:27px;
+}
+
+#Check02Id{
+  margin-left:25px;
+}
+
+#sel{
+  border-radius:4px;
+  border-color:white;
+  padding: 4px;
+  margin-bottom:15px ;
+}
+
+#sel,#name,#phone,#email,#pass{
+  width:179px;
+}
+
+#area{
+  width:278px;
+}
+
+.button{
+  margin:10px 0;
+  padding:5px;
+  width:120px;
+  background:black;
+  color:white;
+  border-radius:6px;
+  border-color:black;
+}
+
+.footer{
+  background:grey;
+  padding: 20px;
+  color:white;
+  text-align:center;
+}

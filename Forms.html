@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="Forms.css">
+  <title>AuthForm</title>
+</head>
+<body>
+	<div class="content">
+		<header>
+			<div class="header">
+			  <h1>LOGO</h1>
+			  <div class="header-menu">
+				<a href="#">HOME</a>
+				<a href="#">ABOUT US</a>
+				<a href="#">OUR TEAM</a>
+			  </div>
+			</div>
+		</header>
+	    <div  class = "flex-container">
+			<div class="sidebar-left">
+				<aside class="flex-item:nth-child(1)">
+				  <h2>Sidebar</h2>
+				  <p><a href="#">Link 01</a></p>
+				  <p><a href="#">Link 02</a></p>
+				  <p><a href="#">Link 03</a></p>
+				  <p><a href="#">Link 04</a></p>
+				</aside>
+			</div>
+			<div class="main">
+				<main class="flex-item:nth-child(2)">
+			    <div class="main-text">
+					<h2>Main title</h2>
+					<p>Lorem ipsum, dolor <strong> sit amet consectetur adipisicing elit</strong>. Nostrum facere quam iure, dolore ducimus minus eligendi praesentium accusantium perferendis, enim harum in! <em>Maxime voluptatibus esse aspernatur distinctio</em> facere tenetur natus odit unde dolorum ad? Provident totam repellat inventore eos voluptates eligendi id sapiente magnam, incidunt soluta neque! Quisquam laudantium ratione quis! Sit eaque dolore earum accusamus facere aspernatur nostrum maxime tempora, culpa consequatur molestias consequuntur dicta blanditiis sunt, tenetur corporis voluptate fugiat! Quas <ins style = "color:blue">perspiciatis</ins> non consectetur ad. <mark>Recusandae</mark>, maxime consectetur.</p>
+			    </div>
+			    <div class="form">
+					<form action="#" id="IdForm" class="main-form">
+					  <h2>Contact form</h2>
+					  <div class = "form-line">
+						<label for="name">Name:</label>
+						<input type="text" id = "name" placeholder = "Enter your name">
+					  </div>
+					  <div class = "form-line">
+						<label for="phone">Phone:</label>
+						<input type="tel" id = "phone" placeholder = "+380xxxxxxxxx">
+					  </div>
+					  <div class = "form-line">
+						<label for="email">EMail:</label>
+						<input type="email" id = "email" placeholder = "Enter your email">
+					  </div>
+					  <div class = "form-line">
+						<label for="pass">Password:</label>
+						<input type="password" id = "pass" placeholder = "Enter your password">
+					  </div>
+					  <div class="check">
+						<input type="checkbox" name="radio">Check01
+						<input type="checkbox" name="radio" id="Check02Id">Check02
+					  </div>
+					  <div class="check">
+						<input type="radio" name="radio">Radio01
+						<input type="radio" name="radio" class="check-margin-left">Radio02
+						<input type="radio" name="radio" class="check-margin-left">Radio03<br>
+					  </div>
+					  <label for="sel">Select:</label>
+					  <select form="IdForm" id="sel">
+						<option>Option01</option>
+						<option>Option02</option>
+					  </select><br>
+					  <textarea rows="5" cols="36" name="text" id="area"> Field for long text </textarea><br>
+					  <input type="submit" class="button" value="GO">
+					</form>
+			    </div>
+			</main>
+			</div>
+		</div>
+	</div>
+  <footer class="footer">Footer</footer>
+</body>
+</html>
